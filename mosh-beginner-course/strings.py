@@ -1,4 +1,4 @@
-course = 'Python Programming'
+course = "Python Programming"
 
 # len Returns number of chars in string
 print(len(course))
@@ -29,23 +29,23 @@ course = "Python \nProgramming"
 print(course)
 
 # Format Strings f''
-first = 'Shane'
-last = 'Pratt'
+first = "Shane"
+last = "Pratt"
 
-full = first + ' ' + last
+full = first + " " + last
 print(full)
 
-full = f'{first} {last}'
+full = f"{first} {last}"
 print(full)
 
-full = f'{len(first)} {last}'
+full = f"{len(first)} {last}"
 print(full)
 
-full = f'{len(first)} {2 + 2}'
+full = f"{len(first)} {2 + 2}"
 print(full)
 
 # String methods
-course = '    python programming    '
+course = "    python programming    "
 course_capital = course.upper()
 print(course_capital)
 print(course.lower())
@@ -53,7 +53,7 @@ print(course.title())
 print(course.strip())
 print(course.lstrip())
 print(course.rstrip())
-print(course.find('pro'))
-print(course.replace('p', 'j'))
-print('pro' in course)
-print('swift' not in course)
+print(course.find("pro"))
+print(course.replace("p", "j"))
+print("pro" in course)
+print("swift" not in course)
