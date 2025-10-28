@@ -86,3 +86,4 @@ def multiply(*numbers):
 
 
 print(multiply(2, 3, 4, 5))
+print(multiply(10, 10))
